@@ -171,7 +171,7 @@ img {
     display: inline-block;
     width: 45%;
     margin: -77px 0 0;
-    background-color: #282828;
+    background-color: #404040;
 
     opacity: 0;
 
@@ -372,3 +372,38 @@ img {
     }
 
 }
+
+.static-link{
+    position:fixed;
+    bottom:5px;
+    right:5px;
+    background-color: #404040;
+    border-radius: 8px;
+    padding:3px;
+    color:#FFF;
+    text-align: right;
+}
+
+a:link {
+    color: rgb(0, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 200, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 217, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 204, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
